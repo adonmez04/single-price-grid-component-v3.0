@@ -1,0 +1,1 @@
+# single-price-grid-component-v3.0
