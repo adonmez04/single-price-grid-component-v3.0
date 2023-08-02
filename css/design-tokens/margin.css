@@ -1,0 +1,14 @@
+/* MARGIN */
+
+:root {
+    /* margin xxs: 4px */
+    --margin-xss: 0.25rem;
+    /* margin xs: 16px → 11px */
+    --margin-xs: clamp(1.00rem, calc(1.11rem + -0.47vw), 0.69rem);
+    /* margin s: 18px */
+    --margin-s: 1.125rem;
+    /* margin m: 24px */
+    --margin-m: 1.5rem;
+    /* margin l: 26px */
+    --margin-l: 1.625rem;
+}
