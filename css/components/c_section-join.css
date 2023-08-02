@@ -1,0 +1,38 @@
+.c_section-join {
+    padding:var(--padding-m);
+    background-color: var(--bg-white);
+    padding-bottom: var(--padding-m-accent);
+}
+
+.c_section-join h1 {
+    /* Font styles */
+    color: var(--color-primary-main);
+    font-size: var(--font-size-step-2);
+    font-weight: var(--weight-bold);
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-space-step-0);
+
+    /* Margin */
+    margin-bottom: var(--margin-m);
+}
+
+.c_section-join h1 + p {
+    /* Font styles */
+    color: var(--color-primary-accent);
+    font-size: var(--font-size-step-1);
+    font-weight: var(--weight-bold);
+    line-height: var(--line-height-step-0);
+    letter-spacing: var(--letter-space-step-2); 
+    
+    /* Margin */
+    margin-bottom: var(--margin-xs);
+}
+
+.c_section-join p {
+    /* Font styles */
+    color: var(--color-neutral-accent);
+    font-size: var(--font-size-step-0);
+    font-weight: var(--weight-normal);
+    line-height: var(--line-height-step-1);
+    letter-spacing: var(--letter-space-step-3);
+}
