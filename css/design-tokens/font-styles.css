@@ -1,0 +1,74 @@
+/* FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+:root {
+    /* FONT FAMILY */
+    --main-font: Karla;
+
+    /* FONT SIZE */
+    /* 
+    H1 - 20px --> 24px
+    H2 - 18px --> 18px
+    Subheader - 15px --> 18px
+    Paragraph text - 14px --> 16px
+    */
+
+    /* Step 0: 14.00px → 16.00px - Paragraph text */
+    --font-size-step-0: clamp(0.88rem, calc(0.83rem + 0.19vw), 1.00rem);
+    /* Step 1: 15.00px → 18.00px - Subheader */
+    --font-size-step-1: clamp(0.94rem, calc(0.87rem + 0.28vw), 1.13rem);
+    /* Step 2: 20.00px → 24.00px - H1 */
+    --font-size-step-2: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem);
+    /* Step 3: 18.00px → 18.00px - H2*/
+    --font-size-step-3: clamp(1.13rem, calc(1.13rem + 0.00vw), 1.13rem);
+
+
+    /* FONT WEIGHT */
+    /* 
+    H1 - 700 --> 700
+    H2 - 700 --> 700
+    Subheader - 700 --> 700
+    Paragraph text - 400 --> 400
+    */
+
+    --weight-normal: 400;
+    --weight-bold: 700;
+
+    /* LINE HEIGHT */
+    /* 
+    H1 - normal --> normal
+    H2 - normal --> normal
+    Subheader - normal --> normal
+    Paragraph text - 26px --> 26px
+    List text - 20px --> 20px
+    */
+
+    --line-height-normal: 1.5;
+    /* Step 0: 20.00px → 20.00px - List text*/
+    --line-height-step-0: clamp(1.25rem, calc(1.25rem + 0.00vw), 1.25rem);
+    /* Step 1: 26.00px → 26.00px - Paragraph text */
+    --line-height-step-1: clamp(1.63rem, calc(1.63rem + 0.00vw), 1.63rem);
+
+
+    /* LETTER SPACING */
+    /* 
+    Normal - -0.2px --> -0.2px
+    H1 - -0.25px --> -0.3px
+    H2 - -0.225px --> -0.225px
+    Subheader - -0.187px --> -0.225px
+    Paragraph text - -0.175px --> -0.2px
+    */
+
+    /* normal: -0.20px → -0.20px */
+    --letter-space-normal: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
+    /* Step 0: -0.25px → -0.30px - H1 */
+    --letter-space-step-0: clamp(-0.02rem, calc(-0.01rem + 0.00vw), -0.02rem);
+    /* Step 1: -0.22px → -0.22px - H2 */
+    --letter-space-step-1: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
+    /* Step 2: -0.19px → -0.22px */
+    --letter-space-step-2: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
+    /* Step 3: -0.17px → -0.20px */
+    --letter-space-step-3: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
+
+}
