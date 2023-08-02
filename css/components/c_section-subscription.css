@@ -1,0 +1,43 @@
+.c_section-subscription {
+    background-color: var(--bg-primary);
+
+    padding:var(--padding-m) ;
+}
+
+.c_section-subscription h2 {
+    /* Font Styles */
+    color: var(--color-white);
+    font-size: var(--font-size-step-3);
+    font-weight: var(--weight-bold);
+    line-height: normal;
+    letter-spacing: var(--letter-space-step-1);
+}
+
+.c_section-subscription .price {
+    /* Font Styles */
+    color:var(--color-white);
+    font-size: var(--font-size-step-4);
+    font-weight: var(--weight-bold);
+    line-height: normal;
+    letter-spacing: var(--letter-space-step-4);
+}
+
+.c_section-subscription .period {
+    opacity: 0.5;
+    /* Font Styles */
+    color: var(--color-white);
+    font-size: var(--font-size-step-5);
+    font-weight: var(--weight-normal);
+    line-height: var(--line-height-step-1);
+    letter-spacing: var(--letter-space-step-5);
+
+}
+
+.c_section-subscription .details {
+        /* Font Styles */
+        color: var(--color-white);
+        font-size: var(--font-size-step-5);
+        font-weight: var(--weight-normal);
+        line-height: var(--line-height-step-1);
+        letter-spacing: var(--letter-space-step-5);
+}

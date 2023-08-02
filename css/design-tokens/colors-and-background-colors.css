@@ -8,6 +8,7 @@
     /* Color Neutral */
     --color-neutral-main:hsl(204, 43%, 93%);
     --color-neutral-accent:hsl(218, 22%, 67%);
+    --color-white:hsla(0, 0%, 100%, 1);
 }
 
 /* BACKGROUND COLORS */

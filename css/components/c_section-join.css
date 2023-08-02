@@ -5,7 +5,7 @@
 }
 
 .c_section-join h1 {
-    /* Font styles */
+    /* Font Styles */
     color: var(--color-primary-main);
     font-size: var(--font-size-step-2);
     font-weight: var(--weight-bold);
@@ -18,7 +18,7 @@
 }
 
 .c_section-join h1 + p {
-    /* Font styles */
+    /* Font Styles */
     color: var(--color-primary-accent);
     font-size: var(--font-size-step-1);
     font-weight: var(--weight-bold);
@@ -30,7 +30,7 @@
 }
 
 .c_section-join p {
-    /* Font styles */
+    /* Font Styles */
     color: var(--color-neutral-accent);
     font-size: var(--font-size-step-0);
     font-weight: var(--weight-normal);
