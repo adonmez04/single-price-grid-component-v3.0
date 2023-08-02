@@ -1,0 +1,9 @@
+.b_main {
+    max-width: 311px;
+    overflow: hidden;
+
+    /* Border */
+    border-radius: var(--main-border-radius);
+    background-color: var(--main-background-color);
+    box-shadow: var(--main-box-shadow);
+}

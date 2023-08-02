@@ -10,6 +10,7 @@
     font-size: var(--font-size-step-2);
     font-weight: var(--weight-bold);
     line-height: var(--line-height-normal);
+    line-height: normal;
     letter-spacing: var(--letter-space-step-0);
 
     /* Margin */

@@ -44,7 +44,7 @@
     List text - 20px --> 20px
     */
 
-    --line-height-normal: 1.5;
+    --line-height-step-2: 1.5;
     /* Step 0: 20.00px → 20.00px - List text*/
     --line-height-step-0: clamp(1.25rem, calc(1.25rem + 0.00vw), 1.25rem);
     /* Step 1: 26.00px → 26.00px - Paragraph text */

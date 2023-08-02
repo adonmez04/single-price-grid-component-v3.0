@@ -1,4 +1,11 @@
 body {
     font-family: Karla, sans-serif;
     font-style: normal;
+    background-color: var(--bg-color-body);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+
 }
