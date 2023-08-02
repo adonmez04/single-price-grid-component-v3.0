@@ -1,0 +1,21 @@
+/* COLOR */
+
+:root {
+    /* Color Primary */
+    --color-primary-main:hsl(179, 62%, 43%);
+    --color-primary-accent:hsl(71, 73%, 54%);
+    
+    /* Color Neutral */
+    --color-neutral-main:hsl(204, 43%, 93%);
+    --color-neutral-accent:hsl(218, 22%, 67%);
+}
+
+/* BACKGROUND COLORS */
+
+:root {
+    --bg-color-body: hsla(205, 44%, 93%, 1);
+    --bg-white: hsla(0, 0%, 100%, 1);
+    --bg-button: hsla(71, 73%, 54%, 1);
+    --bg-primary: hsla(179, 62%, 43%, 1);
+    --bg-primary-accent: hsla(179, 62%, 43%, 0.15185546875)
+}

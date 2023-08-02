@@ -1,5 +1,0 @@
-/* PADDING */
-:root{
-    /* padding m: 24px → 40px */
-    --padding-m: clamp(1.50rem, calc(1.15rem + 1.50vw), 2.50rem);
-}

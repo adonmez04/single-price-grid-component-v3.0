@@ -1,3 +1,4 @@
 @import url(./font-style.css);
-@import url(./padding.css);
-@import url(./margin.css);
+@import url(./padding-and-margin.css);
+@import url(./colors-and-background-colors.css);
+@import url(./border-and-border-radius-and-border-shadows.css);
