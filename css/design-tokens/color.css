@@ -1,0 +1,10 @@
+/* COLOR */
+
+:root {
+    /* Color Primary */
+    --color-primary-main:hsl(179, 62%, 43%);
+    --color-primary-accent:hsl(71, 73%, 54%);
+    /* Color Neutral */
+    --color-neutral-main:hsl(204, 43%, 93%);
+    --color-neutral-accent:hsl(218, 22%, 67%);
+}
