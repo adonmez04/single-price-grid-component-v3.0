@@ -1,11 +1,11 @@
 .b_main {
     max-width: 635px;
-    overflow: hidden;
     /* Flexbox */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     /* Border */
+    overflow: hidden;
     border-radius: var(--main-border-radius);
     background-color: var(--main-background-color);
     box-shadow: var(--main-box-shadow);

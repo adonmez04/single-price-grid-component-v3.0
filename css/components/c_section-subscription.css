@@ -7,7 +7,6 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: var(--flexbox-items-step-1);
-
 }
 
 .c_section-subscription h2 {
@@ -23,7 +22,7 @@
 
 .c_section-subscription h2 + p {
     /* Whitespace */
-    margin-bottom: calc(var(--margin-xxs) - 1.138px); /* to fix some pixels overflow based on the design   */
+    margin-bottom: calc(var(--margin-xxs) - 1.138px); /* to fix some pixel overflow based on the design   */
 }
 
 .c_section-subscription .price {
@@ -33,7 +32,6 @@
     font-weight: var(--weight-bold);
     line-height: normal;
     letter-spacing: var(--letter-space-step-4);
-
 }
 
 .c_section-subscription .period {
@@ -46,7 +44,6 @@
     letter-spacing: var(--letter-space-step-5);
     /* Whitespace */
     margin-left: var(--margin-step-1);
-
 }
 
 .c_section-subscription .details {

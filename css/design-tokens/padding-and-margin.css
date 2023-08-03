@@ -10,7 +10,7 @@
     /* margin xxs: 4px */
     --margin-xxs: 0.25rem;
     /* margin xs: 16px → 11px */
-    --margin-xs: clamp(0.69rem, calc(1.11rem + -0.47vw), 1.00rem);                 ;
+    --margin-xs: clamp(0.69rem, calc(1.11rem + -0.47vw), 1.00rem);
     /* margin s: 18px */
     --margin-s: 1.125rem;
     /* margin m: 24px */
