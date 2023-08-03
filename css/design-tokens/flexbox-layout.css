@@ -1,0 +1,7 @@
+:root {
+    /* Step 1: 311px → 318px */
+    --flexbox-items-step-1: clamp(19.44rem, calc(19.28rem + 0.66vw), 19.88rem);
+
+    /* Step 2: 311px → 635px */
+    --flexbox-items-step-2: clamp(19.44rem, calc(12.31rem + 30.42vw), 39.69rem);
+}

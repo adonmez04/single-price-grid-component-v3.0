@@ -8,7 +8,7 @@
     /* Flexbox */
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: minmax(311px, 318px);
+    flex-basis: var(--flexbox-items-step-1);
 }
 .c_section-why-us h2 {
     /* Font Styles */

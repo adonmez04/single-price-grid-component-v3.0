@@ -7,7 +7,7 @@
     /* Flexbox */
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: minmax(311px, 635px);
+    flex-basis: var(--flexbox-items-step-2);
 }
 
 .c_section-join h1 {

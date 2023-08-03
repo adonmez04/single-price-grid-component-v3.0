@@ -1,11 +1,13 @@
 body {
+    /* Font Styles */
     font-family: Karla, sans-serif;
     font-style: normal;
     background-color: var(--bg-color-body);
-    
+    /* Flexbox */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+    /* Whitespace */
+    padding: 72px 32px 62px;
 
 }
