@@ -67,8 +67,8 @@
     --letter-space-normal: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
     /* Step 0: -0.25px → -0.30px - H1 */
     --letter-space-step-0: clamp(-0.02rem, calc(-0.01rem + 0.00vw), -0.02rem);
-    /* Step 1: -0.22px → -0.22px - H2 */
-    --letter-space-step-1: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
+    /* Step 1: -0.225px - H2 */
+    --letter-space-step-1: -0.01406rem;
     /* Step 2: -0.19px → -0.22px */
     --letter-space-step-2: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
     /* Step 3: -0.17px → -0.20px */

@@ -8,7 +8,7 @@
 /* MARGIN */
 :root {
     /* margin xxs: 4px */
-    --margin-xss: 0.25rem;
+    --margin-xxs: 0.25rem;
     /* margin xs: 16px → 11px */
     --margin-xs: clamp(0.69rem, calc(1.11rem + -0.47vw), 1.00rem);                 ;
     /* margin s: 18px */
@@ -17,4 +17,6 @@
     --margin-m: 1.5rem;
     /* margin l: 26px */
     --margin-l: 1.625rem;
+    /* margin-step-1 */
+    --margin-step-1: 0.6875rem;
 }

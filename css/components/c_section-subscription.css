@@ -1,7 +1,9 @@
 .c_section-subscription {
+    /* Whitespace */
+    padding:var(--padding-m) ;
+    /* Background-color */
     background-color: var(--bg-primary);
 
-    padding:var(--padding-m) ;
 }
 
 .c_section-subscription h2 {
@@ -11,6 +13,13 @@
     font-weight: var(--weight-bold);
     line-height: normal;
     letter-spacing: var(--letter-space-step-1);
+    /* Whitespace */
+    margin-bottom: var(--margin-s);
+}
+
+.c_section-subscription h2 + p {
+    /* Whitespace */
+    margin-bottom: calc(var(--margin-xxs) - 1.138px); /* to fix some pixels overflow based on the design   */
 }
 
 .c_section-subscription .price {
@@ -20,6 +29,7 @@
     font-weight: var(--weight-bold);
     line-height: normal;
     letter-spacing: var(--letter-space-step-4);
+
 }
 
 .c_section-subscription .period {
@@ -30,14 +40,18 @@
     font-weight: var(--weight-normal);
     line-height: var(--line-height-step-1);
     letter-spacing: var(--letter-space-step-5);
+    /* Whitespace */
+    margin-left: var(--margin-step-1);
 
 }
 
 .c_section-subscription .details {
-        /* Font Styles */
-        color: var(--color-white);
-        font-size: var(--font-size-step-5);
-        font-weight: var(--weight-normal);
-        line-height: var(--line-height-step-1);
-        letter-spacing: var(--letter-space-step-5);
+    /* Font Styles */
+    color: var(--color-white);
+    font-size: var(--font-size-step-5);
+    font-weight: var(--weight-normal);
+    line-height: var(--line-height-step-1);
+    letter-spacing: var(--letter-space-step-5);
+    /* Whitespace */
+    margin-bottom: var(--margin-l);
 }

@@ -1,7 +1,9 @@
 .c_section-join {
+    /* Whitespace */
     padding:var(--padding-m);
-    background-color: var(--bg-white);
     padding-bottom: var(--padding-m-accent);
+    /* Background-color */
+    background-color: var(--bg-white);
 }
 
 .c_section-join h1 {
@@ -12,8 +14,7 @@
     line-height: var(--line-height-normal);
     line-height: normal;
     letter-spacing: var(--letter-space-step-0);
-
-    /* Margin */
+    /* Whitespace */
     margin-bottom: var(--margin-m);
 }
 
@@ -24,8 +25,7 @@
     font-weight: var(--weight-bold);
     line-height: var(--line-height-step-0);
     letter-spacing: var(--letter-space-step-2); 
-    
-    /* Margin */
+    /* Whitespace */
     margin-bottom: var(--margin-xs);
 }
 
