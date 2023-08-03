@@ -1,0 +1,27 @@
+.c_section-why-us {
+    /* Whitespace */
+    padding: var(--padding-m);
+    /* Background Color */
+    background-color: color-mix(in srgb, var(--bg-primary) 100%, white 15.19%);
+    /* Font Styles */
+    color: var(--color-white);
+}
+
+.c_section-why-us h2 {
+    /* Font Styles */
+    font-size: var(--font-size-step-3);
+    font-weight: var(--weight-bold);
+    line-height: normal;
+    letter-spacing: var(--letter-space-step-1);
+    /* Whitespace */
+    margin-bottom: var(--margin-s);
+}
+
+.c_section-why-us h2 + ul {
+    opacity: 0.75;
+    /* Font Styles */
+    font-size: var(--font-size-step-6);
+    font-weight: var(--weight-normal);
+    line-height: var(--line-height-step-0);
+    letter-spacing: var(--letter-space-step-6);
+}

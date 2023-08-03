@@ -21,11 +21,13 @@
     /* Step 2: 20.00px → 24.00px - H1 */
     --font-size-step-2: clamp(1.25rem, calc(1.16rem + 0.38vw), 1.50rem);
     /* Step 3: 18.00px → 18.00px - H2*/
-    --font-size-step-3: clamp(1.13rem, calc(1.13rem + 0.00vw), 1.13rem);
+    --font-size-step-3: 1.125rem;
     /* Step 4: 32px */
     --font-size-step-4: 2rem;
     /* Step 5: 16px */
     --font-size-step-5: 1rem;
+    /* Step 6: 14px */
+    --font-size-step-6: 0.875rem;
 
     /* FONT WEIGHT */
     /* 
@@ -75,7 +77,9 @@
     --letter-space-step-3: clamp(-0.01rem, calc(-0.01rem + 0.00vw), -0.01rem);
     /* Step 4: -0.4px */
     --letter-space-step-4:-0.025rem;
-    /* Step 5; -0.2px */
+    /* Step 5: -0.2px */
     --letter-space-step-5: -0.0125rem;
+    /* Step 6: -0.175px */
+    --letter-space-step-6: -0.01094rem;
 
 }
