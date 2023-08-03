@@ -5,8 +5,11 @@
     background-color: color-mix(in srgb, var(--bg-primary) 100%, white 15.19%);
     /* Font Styles */
     color: var(--color-white);
+    /* Flexbox */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: minmax(311px, 318px);
 }
-
 .c_section-why-us h2 {
     /* Font Styles */
     font-size: var(--font-size-step-3);

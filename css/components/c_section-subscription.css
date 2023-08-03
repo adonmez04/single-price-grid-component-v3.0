@@ -3,6 +3,10 @@
     padding:var(--padding-m) ;
     /* Background-color */
     background-color: var(--bg-primary);
+    /* Flexbox */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: minmax(311px, 317px);
 
 }
 
